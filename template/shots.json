@@ -1,0 +1,24 @@
+{
+  "title": "Untitled Miniature Film",
+  "slug": "untitled",
+  "logline": "<one sentence: source symbol -> character -> journey through interfaces -> one-becomes-many -> return>",
+  "fps": 30,
+  "bpm": 120,
+  "res": [1920, 1080],
+  "handles": 6,
+  "unit_scale": 0.01,
+  "audio": {"music": "assets/music.wav", "offset": 0.0},
+  "layout": {
+    "pond": [0.40, 0.60, 0.10], "tree": [0.617, 0.40], "seed": [0.617, 0.40], "hill": [0.12, 0.85],
+    "clawd_land": [0.6, 0.35], "giant": [0.70, 0.45]
+  },
+  "state": {
+    "hero_key": "R3K12",
+    "keyboard_seed": 7,
+    "lit_trail": []
+  },
+  "shots": [
+    {"id": "S01", "start": 0.0, "end": 4.0, "module": "_template", "hero": [1.0, 3.0],
+     "title": "<what happens>", "camera": "<shot size, lens, move>", "transition_out": "<how it hands over>"}
+  ]
+}
